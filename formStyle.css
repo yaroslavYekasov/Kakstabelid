@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: firebrick;
+  margin: 20px;
+}
+
+td#td1{
+  width : 50%;
+  text-align: center;
+}
+
+td{
+  width : 33.3%;
+  text-align: center;
+  border-bottom:1px solid black;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: firebrick;
+}
+
+table {
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="radio"],
+input[type="checkbox"],
+select,
+input[type="color"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  background-color: firebrick; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: maroon;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="color"] {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+form {
+  text-align: center;
+}
+
+form table {
+  margin-top: 20px;
+}
+
+form input[type="button"] {
+  margin-top: 20px;
+  width: 200px;
+  background-color: firebrick; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#form1{
+  width: 80%;
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+#form2{
+  width: 80%;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+#form3{
+  width: 80%;
+  max-width: 250px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+#vastus4,
+#userChoices
+ {
+  border: 10px solid firebrick; 
+  padding: 0px 5px; 
+  margin: 10px;
+  border-radius: 20px;
+}
+
+div#answer,
+div#answer1,
+div#answer2,
+div#answer3,
+div#vastus6,
+div#answer4,
+div#answer5,
+div#answer6,
+div#answer7,
+div#answer8,
+div#answer9,
+div#answer10
+{
+  margin: 0px 30px;
+  padding: 5px 0px;
+  border: 5px solid firebrick; 
+  border-radius: 10px;
+  background-color: firebrick;
+  color: white;
+}
+
+tr.question {
+  border-bottom: 2px solid #000; /* Add a thinner black solid line as an underline */
+}
