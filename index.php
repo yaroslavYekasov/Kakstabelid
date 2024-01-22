@@ -25,7 +25,7 @@ if (isset($_REQUEST["inimene_lisamine"])) {
 }
 
 if (isset($_REQUEST["maakond_lisamine"])) {
-    //ei luba tühja väli ja tühiku sisestamine
+    //ei luba tühja väli ja tühiku sisestaminehhkj
     if (!empty(trim($_REQUEST["maakond"]))) {
         lisaMaakond($_REQUEST["maakond"]);
     }
